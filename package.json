@@ -1,7 +1,7 @@
 {
   "name": "followers-you-know",
   "version": "1.0.0",
-  "description": "Returns a complete, sorted list of all Twitter accounts that have 'followers you know.'",
+  "description": "Returns a list of Twitter accounts, ranked by the number of 'followers you know.'",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
