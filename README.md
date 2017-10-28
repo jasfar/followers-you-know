@@ -1,5 +1,5 @@
 # followers-you-know
-Returns a complete, sorted list of all Twitter accounts that have 'followers you know.'
+Returns a ranked list of all Twitter accounts that have 'followers you know.'
 
 ![screenshot](/screenshot.jpg)
 
