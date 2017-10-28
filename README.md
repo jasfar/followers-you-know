@@ -6,7 +6,7 @@ Returns a list of Twitter accounts, ranked by the number of 'followers you know.
 ## To Use
 Go to the [Twitter Application Manager](https://apps.twitter.com/) and create an app.
 
-Create a config.js filled with your app credentials:
+Create a config.js file with your app credentials:
 ```
 module.exports = {
   consumer_key: '',
