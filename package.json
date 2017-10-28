@@ -1,0 +1,22 @@
+{
+  "name": "followers-you-know",
+  "version": "1.0.0",
+  "description": "Returns a complete, sorted list of all Twitter accounts that have 'followers you know.'",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jasfar/followers-you-know.git"
+  },
+  "author": "Jason Farwell",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jasfar/followers-you-know/issues"
+  },
+  "homepage": "https://github.com/jasfar/followers-you-know#readme",
+  "dependencies": {
+    "twitter": "^1.7.1"
+  }
+}
