@@ -3,7 +3,7 @@ Returns a list of Twitter accounts, ranked by the number of 'followers you know.
 
 ![screenshot](/screenshot.jpg)
 
-## To Use
+## Usage
 Go to the [Twitter Application Manager](https://apps.twitter.com/) and create an app.
 
 Make a config.js file, with your app credentials filled in:
