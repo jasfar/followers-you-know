@@ -1,8 +1,6 @@
 # followers-you-know
 Returns a list of Twitter accounts, ranked by the number of 'followers you know.'
 
-![screenshot](/screenshot.jpg)
-
 ## Usage
 Go to the [Twitter Application Manager](https://apps.twitter.com/) and create an app.
 
