@@ -24,5 +24,5 @@ npm install
 Run the following command, with your username filled in:
 
 ```
-USERNAME='' node index.js
+caffeinate node index.js USERNAME=''
 ```
