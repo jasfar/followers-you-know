@@ -15,7 +15,7 @@ module.exports = {
 };
 ```
 
-Install all of the node_modules dependencies:
+Install all of the dependencies:
 
 ```
 npm install
