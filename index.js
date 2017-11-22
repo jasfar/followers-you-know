@@ -9,23 +9,6 @@ var params = { screen_name: username, stringify_ids: true };
 var first_degree_list = [];
 var second_degree_list = [];
 
-function get_request(request, params, callback) {
-	client.get(request, params, function(error, data, response) {
-		if (error) {
-			if (error[0].code === 88) {
-				setTimeout(function() {
-					get_request(request, params, callback);
-				}, 60 * 1000);
-			} else {
-				process.stdout.write('\n');
-				console.log(error);
-			}
-		} else {
-			callback(data);
-		}
-	});
-}
-
 function collect_data(params) {
 	get_request('friends/ids', params, function(first_degree) {
 		first_degree_list = first_degree_list.concat(first_degree.ids);
@@ -121,6 +104,24 @@ function collect_data(params) {
 			}
 
 			loop();
+		}
+	});
+}
+
+
+function get_request(request, params, callback) {
+	client.get(request, params, function(error, data, response) {
+		if (error) {
+			if (error[0].code === 88) {
+				setTimeout(function() {
+					get_request(request, params, callback);
+				}, 60 * 1000);
+			} else {
+				process.stdout.write('\n');
+				console.log(error);
+			}
+		} else {
+			callback(data);
 		}
 	});
 }
